@@ -1,0 +1,157 @@
+body {
+  background-color: #fa9ba5;
+  color: #113f67; /* #6c5b7b*/
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
+
+h1 {
+  margin: 100px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;  /* 90px */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  /*font-weight: normal;*/
+  color: #35477d;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #113f67;
+  font-size: 1.4rem;
+}
+
+div {
+  padding: 0;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #c06c84;
+  border-width: 5px;
+  width: 10%;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  vertical-align: bottom;
+}
+
+a {
+  color: #7995e8;
+}
+
+/*********************** Class selectors ***********************/
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 50px;
+}
+
+.mountain {
+  position: relative;
+  bottom: 0;
+
+}
+
+.hamster {
+  border-radius: 100%;
+}
+
+.top-container {
+  background-color: #113f67;
+  color: #f67280;
+  padding: 20px 20px 0 20px;
+  position: relative;
+  /* line-height: 0; */
+}
+
+.profile {
+  padding: 20px;
+}
+
+.intro {
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+
+.middle-container {
+  padding: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 10px auto 60px auto;
+  text-align: left;
+}
+
+.hamster {
+  width: 25%;
+}
+
+.code {
+  width: 200px;
+  height: 200px;
+  color: #f79ca6;
+  object-fit: contain;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.maths {
+  width: 200px;
+  height: 200px;
+  color: #f79ca6;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+
+.myButton {
+  box-shadow: inset 0 1px 0 0 #54a3f7;
+  background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  background-color: #007dc1;
+  border-radius: 3px;
+  border: 1px solid #124d77;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #154682;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+  background-color: #0061a7;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.bottom-container {
+  background-color: #35477d;
+  padding: 20px;
+}
+
+.credits {
+  color: #fa9ba5;
+}
